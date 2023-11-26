@@ -334,7 +334,7 @@ input.input100 {
 .bg1 {background-color: #57b846;}
 .bg3 {background-color: #3b5998;}
 .bg4 {background-color: #1da1f2;}
-.bg5 {background-color: #cd201f;}
+.bg5 {background-color: #9F0000;}
 
 .bg-img1 {
   background-position: center;
@@ -492,7 +492,7 @@ input.input100 {
 [ XXL ]*/
 @media (max-width: 1600px) {
   .respon1 {
-    max-width: 38%;
+    max-width: 45%;
   }
 }
 
@@ -546,7 +546,7 @@ input.input100 {
   .p-r-15-lg {padding-right: 15px;}
 
   .w-full-lg {width: 100%;}
-
+  
   /*---------------------------------------------*/
   .respon1 {
     max-width: 650px;
@@ -554,6 +554,7 @@ input.input100 {
     padding-top: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px
   }
 
 
@@ -566,6 +567,7 @@ input.input100 {
   }
 
   .respon2::after {
+    display: none;
     top: 100%;
     right: 0;
     width: 100%;
@@ -658,4 +660,7 @@ input.input100 {
 
 .main-background{
   background-image: url('../images/fiber.jpg');
+}
+.about{
+  text-align: justify;
 }
