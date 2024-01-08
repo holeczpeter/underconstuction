@@ -3,7 +3,7 @@ name: Deploy to FTP
 on:
   push:
     branches:
-      - master  # A fő ág neve, cseréld le az aktuális ág nevére
+      - main  # A fő ág neve, cseréld le az aktuális ág nevére
 
 jobs:
   deploy:
